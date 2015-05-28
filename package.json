@@ -1,0 +1,22 @@
+{
+  "name": "reqbin",
+  "version": "1.0.0",
+  "description": "Simple requests server",
+  "main": "reqbin.js",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/staaldraad/reqbin"
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": "Etienne Stalmans",
+  "license": "GPL"
+}
