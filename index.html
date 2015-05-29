@@ -1,14 +1,16 @@
 <html>
 	<head>
-		<title>Mini reqbin</title>
+		<title>Mini reqbin\\"\u0101\x00/u00ff</title>
 	</head>
 	<body>
 		<h1>Staaldraad Req bin</h1>
 		<div>
 			Quick and dirty implementation of a request emulator
 			<div>
+				Specify redirect as protocol-address. http-127.0.0.1:8080 will redirect to http://127.0.0.1:8080
 				<ul>
-					<li> /redirect/:location -- redirect to given address -- /redirect/http:%2f%2f127.0.0.1</li>
+			
+					<li> /redirect/:location -- redirect to given address -- /redirect/http-127.0.0.1</li>
 					<li> /redirect/local -- redirects to http://127.0.0.1 </li> 
 					<li> GET /redirect307/:location -- 307 redirects to given address </li> 
 					<li> POST /redirect307/:location -- 307 redirects to given address </li> 
